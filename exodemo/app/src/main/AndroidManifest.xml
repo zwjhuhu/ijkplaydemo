@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.exoplayer2.demo"
+    package="com.google.android.exoplayer"
     android:versionCode="2601"
     android:versionName="2.6.1">
 
@@ -31,9 +31,9 @@
       android:banner="@drawable/ic_banner"
       android:largeHeap="true"
       android:allowBackup="false"
-      android:name="com.google.android.exoplayer2.demo.DemoApplication">
+      android:name="com.google.android.exoplayer.DemoApplication">
 
-    <activity android:name="com.google.android.exoplayer2.demo.SampleChooserActivity"
+    <activity android:name="com.google.android.exoplayer.SampleChooserActivity"
         android:configChanges="keyboardHidden"
         android:label="@string/application_name">
       <intent-filter>
@@ -55,7 +55,7 @@
       </intent-filter>
     </activity>
 
-    <activity android:name="com.google.android.exoplayer2.demo.PlayerActivity"
+    <activity android:name="com.google.android.exoplayer.PlayerActivity"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
         android:launchMode="singleTop"
         android:label="@string/application_name"

@@ -1,5 +1,29 @@
 [
   {
+    "name": "内部测试",
+    "samples": [
+      {
+        "name": "test1 (MP4,H264)",
+        "uri": "http://192.168.1.111/video/t1.mp4"
+      },
+      {
+        "name": "test2 (MP4,H265)",
+        "uri": "http://192.168.1.111/video/t2.mp4"
+      },
+      {
+        "name": "flv (flv)",
+        "uri": "http://192.168.1.111/video/test.flv"
+      }
+    ]
+  },{
+    "name": "内部hls",
+    "samples": [
+      {
+        "name": "test stream",
+        "uri": "http://192.168.1.111/hls/test.m3u8"
+      }
+    ]
+  },{
     "name": "YouTube DASH",
     "samples": [
       {
