@@ -18,6 +18,7 @@ package com.google.android.exoplayer;
 import android.app.Application;
 
 import com.google.android.exoplayer2.BuildConfig;
+import com.google.android.exoplayer2.ext.flac.FlacLibrary;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
@@ -48,7 +49,8 @@ public class DemoApplication extends Application {
   }
 
   public boolean useExtensionRenderers() {
-    return BuildConfig.FLAVOR.equals("withExtensions");
+    //return BuildConfig.FLAVOR.equals("withExtensions");
+    return true;
   }
 
 }

@@ -27,7 +27,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckedTextView;
 import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.demo.R;
 import com.google.android.exoplayer2.source.TrackGroup;
 import com.google.android.exoplayer2.source.TrackGroupArray;
 import com.google.android.exoplayer2.trackselection.FixedTrackSelection;

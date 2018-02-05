@@ -8,7 +8,8 @@
       },
       {
         "name": "test2 (MP4,H265)",
-        "uri": "http://192.168.1.111/video/t2.mp4"
+        "uri": "http://192.168.1.111/video/t2.mkv",
+        "prefer_extension_decoders":true
       },
       {
         "name": "flv (flv)",
